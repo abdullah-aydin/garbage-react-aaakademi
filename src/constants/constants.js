@@ -1,0 +1,1 @@
+export const DRAWER_WİTH = 240;
