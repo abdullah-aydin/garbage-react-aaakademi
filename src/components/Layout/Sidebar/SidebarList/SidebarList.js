@@ -1,6 +1,4 @@
-import { ListItemIcon, Drawer, List, ListItemText, ListItem, Divider } from '@material-ui/core';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
+import { ListItemIcon, List, ListItemText, ListItem } from '@material-ui/core';
 
 import {useStyles} from './SidebarList.module'
 import Link from '../../../../Link'
@@ -12,15 +10,20 @@ const SidebarList = ({ ListData }) => {
     }
     
     return (
-        <List>
-            {ListData.map((text, index) => (
-                <ListItem  component={Link} href={text.url} key={text.url} selected={activeRoute(text.url)}>
-                    <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-                    <ListItemText primary={text.name} style={{color:'black'}} />
-                </ListItem>
-            ))}
-        </List>
-    )
+      <List>
+        {ListData.map((item, index) => (
+          <ListItem
+            component={Link}
+            href={item.url}
+            key={item.url}
+            selected={activeRoute(item.url)}
+          >
+            <ListItemIcon>{item.icon}</ListItemIcon>
+            <ListItemText primary={item.name} style={{ color: "black" }} />
+          </ListItem>
+        ))}
+      </List>
+    );
 }
 
 export default SidebarList
