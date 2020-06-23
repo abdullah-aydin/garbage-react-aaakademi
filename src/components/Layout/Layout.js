@@ -11,7 +11,7 @@ import Typography from "@material-ui/core/Typography";
 const Layout = ({children}) => {
     const classes = useStyles();
     
-    const [open, setOpen] = React.useState(true);
+    const [open, setOpen] = React.useState(false);
     
 
     const handleDrawerToggle = () => {

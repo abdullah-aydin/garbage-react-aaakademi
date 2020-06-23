@@ -23,8 +23,8 @@ export default {
     lineHeight: "28px",
   },
   h4: {
-    // color: palette.text.primary,
-    color: "white",
+    color: palette.text.primary,
+    // color: "white",
     fontWeight: 500,
     fontSize: "20px",
     letterSpacing: "-0.06px",

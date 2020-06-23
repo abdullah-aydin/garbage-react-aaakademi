@@ -1,11 +1,11 @@
 import Layout from "../src/components/Layout/Layout";
 
+import BookSection from "../src/views/Book/Book";
 
-export default function Index() {
+export default function Book() {
   return (
-  <Layout>
-    <h1>Kitap</h1>
-   
-  </Layout>
+    <Layout>
+      <BookSection />
+    </Layout>
   );
 }

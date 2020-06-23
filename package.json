@@ -9,7 +9,10 @@
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-customizable-progressbar": "^1.0.1",
+    "react-dom": "latest",
+    "react-id-swiper": "^3.0.0",
+    "swiper": "^5.4.5"
   },
   "scripts": {
     "dev": "next",

@@ -3,12 +3,8 @@ import { Grid } from "@material-ui/core";
 // Component
 import Card from "../../../components/Card/Card";
 // Theme
-import { makeStyles } from "@material-ui/styles";
 // Data 
-import {cardData as DATA} from "../../../data/Data";
-
-
-
+import {homePageCardData as DATA} from "../../../data/Data";
 
 
 function Cards() {
@@ -22,7 +18,7 @@ function Cards() {
   return (
     <div>
       <Grid container spacing={4}>
-        <Grid item xl={3} lg={3} sm={6} xs={6}>
+        <Grid item xs={6} sm={6} md={3}>
           <Card
             bgColor="#35d0ba"
             state1={solvedQuestions.total}
@@ -31,7 +27,7 @@ function Cards() {
             state4={solvedQuestions.text}
           />
         </Grid>
-        <Grid item xl={3} lg={3} sm={6} xs={6}>
+        <Grid item xs={6} sm={6} md={3}>
           <Card
             bgColor="#ffcd3c"
             state1={targets.booksTargets}
@@ -40,7 +36,7 @@ function Cards() {
             state4={targets.text}
           />
         </Grid>
-        <Grid item xl={3} lg={3} sm={6} xs={6}>
+        <Grid item xs={6} sm={6} md={3}>
           <Card
             bgColor="#ff9234"
             state1={questionRecord.record}
@@ -48,7 +44,7 @@ function Cards() {
             state4={questionRecord.text}
           />
         </Grid>
-        <Grid item xl={3} lg={3} sm={6} xs={6}>
+        <Grid item xs={6} sm={6} md={3}>
           <Card
             bgColor="#d92027"
             state1={bookRecord.record}
