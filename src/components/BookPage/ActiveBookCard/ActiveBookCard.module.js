@@ -15,8 +15,8 @@ export const BookCardStyles = makeStyles((theme) => ({
     justifyContent: "center",
     flexDirection: "column",
     width: "100%",
+    
   },
-
   imageWrap: {
     flex: 3,
     display: "flex",
@@ -33,6 +33,7 @@ export const BookCardStyles = makeStyles((theme) => ({
     display: "flex",
     flex: 2,
     flexDirection: "column",
+    flexGrow: 1,
   },
   bookName: {
     display: "flex",
@@ -64,12 +65,23 @@ export const BookCardStyles = makeStyles((theme) => ({
   addPageButton: {
     display: "flex",
     justifyContent: "center",
-    marginRight: theme.spacing(0.8),
+    marginRight: theme.spacing(1),
+    backgroundColor: "#58b4ae",
+  },
+  editButton: {
+    backgroundColor: "#ffe277",
   },
   chart: {
     display: "flex",
     position: "absolute",
     alignItems: "flex-start",
-    transform: "translate(25%,-25%)",
+    transform: "translate(18%,-18%)",
+  },
+  addBookTypography: {
+    display: "flex",
+    textAlign: "center",
+    justifyContent: "center",
+    width: "100%",
+    fontStyle: "italic",
   },
 }));

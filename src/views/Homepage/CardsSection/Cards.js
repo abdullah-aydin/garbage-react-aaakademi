@@ -1,7 +1,7 @@
 import React, { useState } from "react"; // @material-ui
 import { Grid } from "@material-ui/core";
 // Component
-import Card from "../../../components/Card/Card";
+import Card from "../../../components/Homepage/Card/Card";
 // Theme
 // Data 
 import {homePageCardData as DATA} from "../../../data/Data";

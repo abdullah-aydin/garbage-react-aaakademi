@@ -4,7 +4,7 @@ import { ListItemIcon, Drawer, List, ListItemText, ListItem, Divider} from '@mat
 import { useStyles} from './BigScreenDrawer.module'
 
 import SidebarList from '../SidebarList/SidebarList'
-import { ListData} from '../../../../data/Data'
+import { ListData } from '../../../../data/Data'
 
 const BigScreenDrawer =({open})=> {
     const classes = useStyles();

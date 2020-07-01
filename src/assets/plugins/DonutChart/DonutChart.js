@@ -8,15 +8,26 @@ import { DonutChartStyles } from "./DonutChart.module";
 function DonutChart({ progress }) {
   const classes = DonutChartStyles();
 
+  function colorChange(){
+      if (progress < 30) {
+        return "#b51907";
+      } else if (progress < 70 ) {
+        return "#ffc60a";
+      } else if (progress <= 100) {
+        return "#5dab1d";
+      } 
+  }
+  
+
   return (
     <ProgressBar
       radius={25}
       progress={progress}
-      fillColor="#3f51b5"
       strokeWidth={5}
-      strokeColor="#ffd247"
+      strokeColor={colorChange()}
       trackStrokeWidth={5}
       trackStrokeColor="#c45252"
+      fillColor="#dcc7c7"
       pointerRadius={5}
       pointerStrokeWidth={1}
       transition="4s ease"
@@ -24,10 +35,7 @@ function DonutChart({ progress }) {
       initialAnimationDelay={1000}
       className={classes.root}
     >
-      <Typography
-        className={classes.indicator}
-        variant="button"
-      >
+      <Typography className={classes.indicator} variant="button">
         {progress}%
       </Typography>
     </ProgressBar>

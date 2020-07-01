@@ -22,7 +22,7 @@ export const ListData = [
   },
   {
     url: "/question",
-    name: "Soru bankası",
+    name: "Soru Bankası",
     icon: <HelpOutlineIcon />,
   },
   {
@@ -57,13 +57,120 @@ export const homePageCardData = {
   },
 };
 
-export const bookData = {
-  activeBookData: {
+export const activeBookData = [
+  {
     name: "Hayvanlardan Tanrılara Sapiens İnsan Türünün Kısa Bir Tarihi",
     initDate: "19.05.2020",
-    readPage: "184",
+    readPage: "400",
     totalPage: "513",
     image:
       "https://i0.wp.com/bilimdili.com/wp-content/uploads/2017/07/kitap.jpg",
   },
-};
+  {
+    name: "Uçurtma Avcısı",
+    initDate: "20.06.2020",
+    readPage: "325",
+    totalPage: "550",
+    image:
+      "https://img.letgo.com/images/d3/8c/91/95/d38c9195dcab24aa544d7d65835b2f18.jpg?impolicy=img_600",
+  },
+  {
+    name: "Hayvan Çiftliği",
+    initDate: "19.05.2020",
+    readPage: "50",
+    totalPage: "200",
+    image: "https://cdn.kitapsec.com/image/urun/2020/04/16/1587017323.jpg",
+  },
+  {
+    name: "Hayvanlardan Tanrılara Sapiens İnsan Türünün Kısa Bir Tarihi",
+    initDate: "19.05.2020",
+    readPage: "400",
+    totalPage: "513",
+    image:
+      "https://i0.wp.com/bilimdili.com/wp-content/uploads/2017/07/kitap.jpg",
+  },
+  {
+    name: "Uçurtma Avcısı",
+    initDate: "20.06.2020",
+    readPage: "325",
+    totalPage: "550",
+    image:
+      "https://img.letgo.com/images/d3/8c/91/95/d38c9195dcab24aa544d7d65835b2f18.jpg?impolicy=img_600",
+  },
+  {
+    name: "Hayvan Çiftliği",
+    initDate: "19.05.2020",
+    readPage: "50",
+    totalPage: "200",
+    image: "https://cdn.kitapsec.com/image/urun/2020/04/16/1587017323.jpg",
+  },
+  {
+    name: "Hayvanlardan Tanrılara Sapiens İnsan Türünün Kısa Bir Tarihi",
+    initDate: "19.05.2020",
+    readPage: "400",
+    totalPage: "513",
+    image:
+      "https://i0.wp.com/bilimdili.com/wp-content/uploads/2017/07/kitap.jpg",
+  },
+  {
+    name: "Uçurtma Avcısı",
+    initDate: "20.06.2020",
+    readPage: "325",
+    totalPage: "550",
+    image:
+      "https://img.letgo.com/images/d3/8c/91/95/d38c9195dcab24aa544d7d65835b2f18.jpg?impolicy=img_600",
+  },
+  {
+    name: "Hayvan Çiftliği",
+    initDate: "19.05.2020",
+    readPage: "50",
+    totalPage: "200",
+    image: "https://cdn.kitapsec.com/image/urun/2020/04/16/1587017323.jpg",
+  },
+  {
+    name: "Hayvanlardan Tanrılara Sapiens İnsan Türünün Kısa Bir Tarihi",
+    initDate: "19.05.2020",
+    readPage: "400",
+    totalPage: "513",
+    image:
+      "https://i0.wp.com/bilimdili.com/wp-content/uploads/2017/07/kitap.jpg",
+  },
+  {
+    name: "Uçurtma Avcısı",
+    initDate: "20.06.2020",
+    readPage: "325",
+    totalPage: "550",
+    image:
+      "https://img.letgo.com/images/d3/8c/91/95/d38c9195dcab24aa544d7d65835b2f18.jpg?impolicy=img_600",
+  },
+  {
+    name: "Hayvan Çiftliği",
+    initDate: "19.05.2020",
+    readPage: "50",
+    totalPage: "200",
+    image: "https://cdn.kitapsec.com/image/urun/2020/04/16/1587017323.jpg",
+  },
+  {
+    name: "Hayvanlardan Tanrılara Sapiens İnsan Türünün Kısa Bir Tarihi",
+    initDate: "19.05.2020",
+    readPage: "400",
+    totalPage: "513",
+    image:
+      "https://i0.wp.com/bilimdili.com/wp-content/uploads/2017/07/kitap.jpg",
+  },
+  {
+    name: "Uçurtma Avcısı",
+    initDate: "20.06.2020",
+    readPage: "325",
+    totalPage: "550",
+    image:
+      "https://img.letgo.com/images/d3/8c/91/95/d38c9195dcab24aa544d7d65835b2f18.jpg?impolicy=img_600",
+  },
+  {
+    name: "Hayvan Çiftliği",
+    initDate: "19.05.2020",
+    readPage: "50",
+    totalPage: "200",
+    image: "https://cdn.kitapsec.com/image/urun/2020/04/16/1587017323.jpg",
+  },
+];
